@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-waves min-h-screen bg-cover bg-no-repeat flex justify-center bg-fixed">
+  <div class="bg-blue-waves min-h-screen bg-cover bg-no-repeat flex justify-center">
     <div class="relative flex flex-col w-11/12 sm:w-3/4 2xl:w-1/2" style="aspect-ratio: 9 / 13;">
       <div class="absolute inset-0 my-16 bg-gradient-to-br from-sky-200 to-blue-200 rounded-2xl p-10 shadow-lg transform 2xl:rotate-15 opacity-20"></div>
       <div class="absolute inset-0 my-16 bg-gradient-to-br from-sky-200 to-blue-200 rounded-2xl p-10 shadow-lg transform 2xl:rotate-12 opacity-40"></div>
