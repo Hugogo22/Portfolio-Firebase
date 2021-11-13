@@ -16,9 +16,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../components/CV.vue')
   },
   {
-    path: '/Sidenav',
-    name: 'Sidenav',
-    component: () => import('../components/Sidenav.vue')
+    path: '/Realisations',
+    name: 'Realisations',
+    component: () => import('../components/Realisations.vue')
   }
 ]
 

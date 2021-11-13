@@ -432,6 +432,7 @@ module.exports = {
       '4/6': '66.666667%',
       '5/6': '83.333333%',
       full: '100%',
+      more: '110%',
       screen: '100vh',
     }),
     inset: (theme, { negative }) => ({
@@ -543,11 +544,13 @@ module.exports = {
     minHeight: {
       0: '0px',
       full: '100%',
+      more: '110%',
       screen: '100vh',
     },
     minWidth: {
       0: '0px',
       full: '100%',
+      more: '110%',
       min: 'min-content',
       max: 'max-content',
     },
@@ -758,6 +761,7 @@ module.exports = {
       '2/4': '50%',
       '3/4': '75%',
       full: '100%',
+      more: '110%',
       '-1/2': '-50%',
       '-1/3': '-33.333333%',
       '-2/3': '-66.666667%',
@@ -796,6 +800,7 @@ module.exports = {
       '10/12': '83.333333%',
       '11/12': '91.666667%',
       full: '100%',
+      more: '110%',
       screen: '100vw',
       min: 'min-content',
       max: 'max-content',
