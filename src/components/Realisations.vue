@@ -22,18 +22,19 @@
             <p>Hardhat - Solidity - Python</p>
           </div>
           <div class="text-left text-2xl">
-            <p>J'ai réalisé une collection de 10 000 <a class="text-sky-600" href="https://cryptoast.fr/non-fungible-token-nft-ou-token-non-fongible/" target="_blank" rel="noreferrer">NFT</a> sur 
-              la blockchain <a class="text-sky-600" href="https://polygon.technology/" target="_blank" rel="noreferrer">Polygon</a> nommé "Cool Sheep Club". 
+            <p>J'ai réalisé une collection de 10 000 <a class="text-sky-600" href="https://cryptoast.fr/non-fungible-token-nft-ou-token-non-fongible/" target="_blank" rel="Noopener">NFT</a> sur 
+              la blockchain <a class="text-sky-600" href="https://polygon.technology/" target="_blank" rel="Noopener">Polygon</a> nommé "Cool Sheep Club". 
               Pour la création des images mon meilleur ami s'est chargé de dessiner les différentes composantes, 
               puis j'ai assemblé les images avec un script python qui sélectionne les différentes composantes selon des probabilités prédéfinies.
-              À l'aide d'un autre script j'ai généré les métadonnées avec le lien permanent vers les images hébergées sur <a class="text-sky-600" href="https://www.pinata.cloud/" target="_blank" rel="noreferrer">Pinata</a>.</p>
+              À l'aide d'un autre script j'ai généré les métadonnées avec le lien permanent vers les images hébergées sur <a class="text-sky-600" href="https://www.pinata.cloud/" target="_blank" rel="Noopener">Pinata</a>.
+            </p>
           </div>
         </div>
       </div>
       <div class="flex flex-col">
         <div class="relative py-4 my-4 sm:max-w-md sm:mx-auto z-20">
           <div class="absolute inset-0 bg-gradient-to-br from-sky-500 to-blue-600 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
-          <a href="https://github.com/Hugogo22/Cool-Sheep-Club-NFT" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Hugogo22/Cool-Sheep-Club-NFT" target="_blank" rel="Noopener">
             <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-5 space-y-6  transform hover:scale-105 transition-transform">
               <img src="logo-github.png" alt="Logo de github">
             </div>
@@ -41,7 +42,7 @@
         </div>
         <div class="relative py-4 my-4 sm:max-w-md sm:mx-auto z-20">
           <div class="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-800 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
-          <a href="https://opensea.io/collection/cool-sheep-club" target="_blank" rel="noreferrer">
+          <a href="https://opensea.io/collection/cool-sheep-club" target="_blank" rel="Noopener">
             <div class="relative bg-white sm:rounded-2xl space-y-6  transform hover:scale-105 transition-transform">
               <img src="cool-sheep-club.png" class="sm:rounded-2xl" alt="Illustration NFT Cool Sheep Club">
             </div>
@@ -52,9 +53,9 @@
         <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
-            <p>J'ai créé un <a class="text-sky-600" href="https://github.com/Hugogo22/Cool-Sheep-Club-NFT" target="_blank" rel="noreferrer">dêpot github</a> avec les scripts python et les 
+            <p>J'ai créé un <a class="text-sky-600" href="https://github.com/Hugogo22/Cool-Sheep-Club-NFT" target="_blank" rel="Noopener">dêpot github</a> avec les scripts python et les 
               contrats solidity où est expliqué rapidement comment créer des NFT a l'aide de celui-ci. Nous avons créer 
-              une <a class="text-sky-600" href="https://opensea.io/collection/cool-sheep-club" target="_blank" rel="noreferrer">collection OpenSea</a> pour mettre en vente les NFT.
+              une <a class="text-sky-600" href="https://opensea.io/collection/cool-sheep-club" target="_blank" rel="Noopener">collection OpenSea</a> pour mettre en vente les NFT.
             </p>
           </div>
         </div>
@@ -64,7 +65,7 @@
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
             <p>Concrètement, les NFT sont représentés par un contrat (ou programme) codé en solidity et sur une blockchain, dans notre cas Polygon. Pour compiler les contrats et écrire
-              des scripts pour interagir avec la blockchain j'ai utilisé <a class="text-sky-600" href="https://hardhat.org/" target="_blank" rel="noreferrer">Hardhat</a> avec Node.js.
+              des scripts pour interagir avec la blockchain j'ai utilisé <a class="text-sky-600" href="https://hardhat.org/" target="_blank" rel="Noopener">Hardhat</a> avec Node.js.
             </p>
           </div>
         </div>
@@ -74,7 +75,7 @@
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
             <p>La dernière étape était de mettre en vente les NFT sur OpenSea. Étant donné qu'ils ne permettent pas de mettre en vente des NFT automatiquement sur la blockchain Polygon, 
-              j'ai créé un script python avec la librairie <a class="text-sky-600" href="https://www.selenium.dev/" target="_blank" rel="noreferrer">Selenium</a>. 
+              j'ai créé un script python avec la librairie <a class="text-sky-600" href="https://www.selenium.dev/" target="_blank" rel="Noopener">Selenium</a>. 
               Le script met en vente les NFT une à une avec un prix qui est déterminé par sa rareté.</p>
           </div>
         </div>
@@ -101,7 +102,7 @@
       <div class="flex flex-col">
         <div class="relative py-4 my-4 sm:max-w-md sm:mx-auto z-20">
           <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
-          <a href="https://unity.com/fr" target="_blank" rel="noreferrer">
+          <a href="https://unity.com/fr" target="_blank" rel="Noopener">
             <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-10 space-y-6 transform hover:scale-105 transition-transform">
               <img src="logo-unity.png" alt="Logo de Unity">
             </div>
