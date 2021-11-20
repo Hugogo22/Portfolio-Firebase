@@ -18,7 +18,9 @@
             <p>Etudiant en informatique</p>
           </div>
           <div class="text-left text-2xl">
-            <p>J'ai 19 ans et je suis actuellement en seconde année de DUT Informatique. Je recherche un stage d'au moins 2 mois pour la fin d'année et mon objectif est de rejoindre une école d'ingénieurs après mon DUT.</p>
+            <p>J'ai 19 ans et je suis actuellement en seconde année de DUT Informatique. Je recherche un stage d'au moins 2 mois pour la fin d'année et je souhaite rejoindre une école d'ingénieurs après mon DUT.
+              Je suis ambitieux et motivé par l'innovation !
+            </p>
           </div>
         </div>
       </div>
@@ -39,11 +41,13 @@
           </div>
         </div>
       </router-link>
-      <div class="relative bg-gradient-to-br from-blue-600 to-indigo-700 sm:w-1/2 sm:max-w-md sm:mx-auto sm:rounded-2xl px-4 py-10 sm:p-16 shadow-lg transform -skew-y-6 sm:translate-x-20 xl:translate-x-40 -translate-y-4 xl:-translate-y-8 z-10 hover:skew-y-0 transition-property: all; duration-75 ease-out hover:scale-105 cursor-pointer">
-        <div class="text-2xl text-center tracking-wider">
-          <p>ME CONTACTER</p>
+      <router-link to="/Contact">
+        <div class="relative bg-gradient-to-br from-blue-600 to-indigo-700 sm:w-1/2 sm:max-w-md sm:mx-auto sm:rounded-2xl px-4 py-10 sm:p-16 shadow-lg transform -skew-y-6 sm:translate-x-20 xl:translate-x-40 -translate-y-4 xl:-translate-y-8 z-10 hover:skew-y-0 transition-property: all; duration-75 ease-out hover:scale-105 cursor-pointer">
+          <div class="text-2xl text-center tracking-wider">
+            <p>ME CONTACTER</p>
+          </div>
         </div>
-      </div>
+      </router-link>
     </div>
   </div> 
 </template>

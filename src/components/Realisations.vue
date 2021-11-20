@@ -11,6 +11,69 @@
     </div>
 
     <div class="relative flex my-20 justify-center items-center flex-wrap">
+      <div class="absolute inset-0 inset-x-0 xl:inset-x-64 bg-gradient-to-br from-cyan-200 to-sky-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-3 sm:rounded-2xl"></div>
+      <div class="relative py-4 my-4 sm:max-w-xl sm:mx-auto z-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+        <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
+          <div class="text-center text-4xl font-bold tracking-tight text-sky-600">
+            <p>Site web portfolio</p>
+          </div>
+          <div class="text-center text-4xl font-semibold tracking-tight text-sky-500">
+            <p>Vue.js - Tailwind</p>
+          </div>
+          <div class="text-left text-2xl">
+            <p>Le site web sur lequel vous êtes actuellement a été réalisé principalement avec <a class="text-sky-600" href="https://vuejs.org/" target="_blank" rel="Noopener">Vue.js</a> 
+              et <a class="text-sky-600" href="https://tailwindcss.com/" target="_blank" rel="Noopener">Tailwind CSS</a>. J'avais eu l'occasion de faire 
+              <a class="text-sky-600" href="https://old.hugo.eynard-home.fr/" target="_blank" rel="Noopener">mon ancien site portfolio</a> lors d'un projet en DUT, il était construit en HTML et CSS 
+              natif avec un peu de Javascript et de PHP pour la partie contact. Je l'avais ensuite hébergé sur un Raspberry Pi dans mon garage avec un serveur web Apache.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <div class="relative py-4 my-4 sm:max-w-md sm:mx-auto z-20">
+          <div class="absolute inset-0 bg-gradient-to-br from-sky-500 to-blue-600 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+          <a href="https://github.com/Hugogo22/Portfolio-Firebase" target="_blank" rel="Noopener">
+            <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-5 space-y-6  transform hover:scale-105 transition-transform">
+              <img src="logo-github.png" alt="Logo de github">
+            </div>
+          </a>
+        </div>
+        <div class="relative py-4 my-4 sm:max-w-md sm:mx-auto z-20">
+          <div class="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-800 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+          <a href="https://old.hugo.eynard-home.fr/" target="_blank" rel="Noopener">
+            <div class="relative bg-white sm:rounded-2xl space-y-6  transform hover:scale-105 transition-transform">
+              <img src="ancien-site.png" class="sm:rounded-2xl" alt="Illustration ancien site">
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="relative py-4 my-4 sm:max-w-xl sm:mx-auto z-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-sky-500 to-blue-600 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+        <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
+          <div class="text-left text-2xl">
+            <p>Pour ce nouveau site, étant donné que j'avais plus de liberté j'ai décidé d'utiliser des outils plus modernes. Le framework Javascript Vue.js m'a permis de créer facilement un site avec de
+              belles transitions entre les pages, même s'il permet de faire des choses beaucoup plus poussées mais je n'en avais pas besoin. J'ai néanmoins profité de la partie backend de Vue.js sans laquelle
+              je n'aurais pas pu utiliser Tailwind pleinement par exemple. Le framework CSS Tailwind a grandement facilité et accéléré la mise en place d'un site responsive.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="relative py-4 my-4 sm:max-w-xl sm:mx-auto z-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-sky-500 to-blue-600 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+        <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
+          <div class="text-left text-2xl">
+            <p>J'ai ensuite hébergé mon site sur <a class="text-sky-600" href="https://firebase.google.com/" target="_blank" rel="Noopener">Firebase</a> ce qui 
+              m'a permis de mettre le site en ligne très facilement et de le mettre a jour en une seule commande, je n'ai également rien besoin de configurer pour que mon site
+              soit en HTTPS. Pour la page de contact j'ai utilisé <a class="text-sky-600" href="https://www.emailjs.com/" target="_blank" rel="Noopener">EmailJS</a> et pour 
+              installer tout cela j'ai utilisé le package manager <a class="text-sky-600" href="https://www.npmjs.com/" target="_blank" rel="Noopener">npm</a> et le code 
+              est disponible sur <a class="text-sky-600" href="https://github.com/Hugogo22/Portfolio-Firebase" target="_blank" rel="Noopener">mon github</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative flex my-20 justify-center items-center flex-wrap">
       <div class="absolute inset-0 inset-x-0 xl:inset-x-64 bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-3 sm:rounded-2xl"></div>
       <div class="relative py-4 my-4 sm:max-w-xl sm:mx-auto z-20">
         <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
@@ -88,6 +151,49 @@
         <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-center text-4xl font-bold tracking-tight text-sky-600">
+            <p>Projets en DUT</p>
+          </div>
+          <div class="text-center text-4xl font-semibold tracking-tight text-sky-500">
+            <p>C - Java - Web - SQL</p>
+          </div>
+          <div class="text-left text-2xl">
+            <p>Pendant ma première année de DUT et la première partie de cette deuxième année j'ai eu l'occasion de réaliser plusieurs projets, tout seul ou en groupe.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <div class="relative py-4 my-4 sm:max-w-md sm:mx-auto z-20">
+          <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+          <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-10 space-y-6">
+            <img src="blocus.png" alt="Illustration projet C">
+          </div>
+        </div>
+        <div class="relative py-4 my-4 sm:max-w-md sm:mx-auto z-20">
+          <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+          <div class="relative bg-white sm:rounded-2xl space-y-6">
+            <img class="sm:rounded-2xl" src="SameGame.svg" alt="Illustration projet Java">
+          </div>
+        </div>
+      </div>
+      <div class="relative py-4 my-4 sm:max-w-xl sm:mx-auto z-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-sky-500 to-blue-600 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+        <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
+          <div class="text-left text-2xl">
+            <p>J'ai réalisé des jeux 2Ds en C avec une bibliothèque graphique fournie par l'IUT et en Java avec Swing. J'ai également créé plusieurs sites web, dont un site en PHP 
+              qui reproduit le site <a class="text-sky-600" href="https://doodle.com/fr/" target="_blank" rel="Noopener">doodle</a> avec un système d'authentification et des sondages
+              pour choisir le moment d'une réunion et qui utilise une base de données SQL. Le dernier projet que j'ai réalisé est un système de réservation de chambres d'hotel et de 
+              visualisation du taux de remplissage des chambres en java avec Swing et une base de données SQL.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative flex my-20 justify-center items-center flex-wrap">
+      <div class="absolute inset-0 inset-x-0 xl:inset-x-64 bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-3 sm:rounded-2xl"></div>
+      <div class="relative py-4 my-4 sm:max-w-xl sm:mx-auto z-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+        <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
+          <div class="text-center text-4xl font-bold tracking-tight text-sky-600">
             <p>Jeu mobile <i>Space Race</i></p>
           </div>
           <div class="text-center text-4xl font-semibold tracking-tight text-sky-500">
@@ -101,7 +207,7 @@
       </div>
       <div class="flex flex-col">
         <div class="relative py-4 my-4 sm:max-w-md sm:mx-auto z-20">
-          <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+          <div class="absolute inset-0 bg-gradient-to-br from-sky-500 to-blue-600 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
           <a href="https://unity.com/fr" target="_blank" rel="Noopener">
             <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-10 space-y-6 transform hover:scale-105 transition-transform">
               <img src="logo-unity.png" alt="Logo de Unity">
@@ -134,7 +240,7 @@
         </div>
       </div>
       <div class="relative py-4 my-4 sm:max-w-xl sm:mx-auto z-20">
-        <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-sky-500 to-blue-600 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
             <p>Une autre partie très importante du développement du jeu est la modélisation en 3D. La qualité de celle-ci change énormément le ressenti du jeu, 

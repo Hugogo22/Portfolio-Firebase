@@ -56,12 +56,10 @@
       </router-link>
     </div>
   </div>
-  <router-view v-slot="{ Component }">
-    <transition
-      enter-from-class="translate-x-full"
+  <router-view v-slot="{ Component, route }">
+    <transition :name="route.meta.transitionName"
       enter-active-class="z-40 absolute w-full transform-gpu transition-transform duration-500 ease-in-out"
       leave-active-class="z-40 absolute w-full transform-gpu transition-transform duration-500 ease-in-out"
-      leave-to-class="-translate-x-full"
     >
       <component :is="Component"/>
     </transition>
@@ -77,6 +75,16 @@
 
   .router-link-active::after {
     @apply scale-75;
+  }
+
+  .from-left-enter-from,
+  .from-right-leave-to {
+    @apply translate-x-full;
+  }
+
+  .from-left-leave-to,
+  .from-right-enter-from {
+    @apply -translate-x-full;
   }
 </style>
 
