@@ -24,8 +24,8 @@
           <div class="text-left text-2xl">
             <p>Le site web sur lequel vous êtes actuellement a été réalisé principalement avec <a class="text-sky-600" href="https://vuejs.org/" target="_blank" rel="Noopener">Vue.js</a> 
               et <a class="text-sky-600" href="https://tailwindcss.com/" target="_blank" rel="Noopener">Tailwind CSS</a>. J'avais eu l'occasion de faire 
-              <a class="text-sky-600" href="https://old.hugo.eynard-home.fr/" target="_blank" rel="Noopener">mon ancien site portfolio</a> lors d'un projet en DUT, il était construit en HTML et CSS 
-              natif avec un peu de Javascript et de PHP pour la partie contact. Je l'avais ensuite hébergé sur un Raspberry Pi dans mon garage avec un serveur web Apache.</p>
+              <a class="text-sky-600" href="https://old.hugo.eynard-home.fr/" target="_blank" rel="Noopener">mon ancien site portfolio</a> lors d'un projet en DUT, il était construit en HTML, CSS 
+              et Javascript natif avec un peu de PHP pour la page de contact. Je l'avais ensuite hébergé sur un Raspberry Pi dans mon garage avec un serveur web Apache.</p>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
             <p>Pour ce nouveau site, étant donné que j'avais plus de liberté j'ai décidé d'utiliser des outils plus modernes. Le framework Javascript Vue.js m'a permis de créer facilement un site avec de
-              belles transitions entre les pages, même s'il permet de faire des choses beaucoup plus poussées mais je n'en avais pas besoin. J'ai néanmoins profité de la partie backend de Vue.js sans laquelle
+              belles transitions entre les pages, même s'il permet de faire des choses beaucoup plus poussées. J'ai néanmoins profité de la partie backend de Vue.js sans laquelle
               je n'aurais pas pu utiliser Tailwind pleinement par exemple. Le framework CSS Tailwind a grandement facilité et accéléré la mise en place d'un site responsive.
             </p>
           </div>
@@ -63,9 +63,9 @@
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
             <p>J'ai ensuite hébergé mon site sur <a class="text-sky-600" href="https://firebase.google.com/" target="_blank" rel="Noopener">Firebase</a> ce qui 
-              m'a permis de mettre le site en ligne très facilement et de le mettre a jour en une seule commande, je n'ai également rien besoin de configurer pour que mon site
+              m'a permis de mettre le site en ligne très facilement et de le mettre a jour en une seule commande. Je n'ai également rien eu besoin de configurer pour que mon site
               soit en HTTPS. Pour la page de contact j'ai utilisé <a class="text-sky-600" href="https://www.emailjs.com/" target="_blank" rel="Noopener">EmailJS</a> et pour 
-              installer tout cela j'ai utilisé le package manager <a class="text-sky-600" href="https://www.npmjs.com/" target="_blank" rel="Noopener">npm</a> et le code 
+              installer tout cela j'ai utilisé le package manager <a class="text-sky-600" href="https://www.npmjs.com/" target="_blank" rel="Noopener">npm</a>. Le code 
               est disponible sur <a class="text-sky-600" href="https://github.com/Hugogo22/Portfolio-Firebase" target="_blank" rel="Noopener">mon github</a>.
             </p>
           </div>
@@ -87,8 +87,8 @@
           <div class="text-left text-2xl">
             <p>J'ai réalisé une collection de 10 000 <a class="text-sky-600" href="https://cryptoast.fr/non-fungible-token-nft-ou-token-non-fongible/" target="_blank" rel="Noopener">NFT</a> sur 
               la blockchain <a class="text-sky-600" href="https://polygon.technology/" target="_blank" rel="Noopener">Polygon</a> nommé "Cool Sheep Club". 
-              Pour la création des images mon meilleur ami s'est chargé de dessiner les différentes composantes, 
-              puis j'ai assemblé les images avec un script python qui sélectionne les différentes composantes selon des probabilités prédéfinies.
+              Pour la création des images je me suis associé à un ami designer qui s'est chargé de dessiner les différentes composantes, 
+              puis j'ai assemblé les images avec un script Python qui sélectionne les différentes composantes selon des probabilités prédéfinies.
               À l'aide d'un autre script j'ai généré les métadonnées avec le lien permanent vers les images hébergées sur <a class="text-sky-600" href="https://www.pinata.cloud/" target="_blank" rel="Noopener">Pinata</a>.
             </p>
           </div>
@@ -116,8 +116,8 @@
         <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
-            <p>J'ai créé un <a class="text-sky-600" href="https://github.com/Hugogo22/Cool-Sheep-Club-NFT" target="_blank" rel="Noopener">dêpot github</a> avec les scripts python et les 
-              contrats solidity où est expliqué rapidement comment créer des NFT a l'aide de celui-ci. Nous avons créer 
+            <p>J'ai créé un <a class="text-sky-600" href="https://github.com/Hugogo22/Cool-Sheep-Club-NFT" target="_blank" rel="Noopener">dêpot github</a> avec les scripts Python et les 
+              contrats Solidity, où est expliqué comment créer des NFT a l'aide de celui-ci. Nous avons créé 
               une <a class="text-sky-600" href="https://opensea.io/collection/cool-sheep-club" target="_blank" rel="Noopener">collection OpenSea</a> pour mettre en vente les NFT.
             </p>
           </div>
@@ -179,9 +179,9 @@
         <div class="absolute inset-0 bg-gradient-to-br from-sky-500 to-blue-600 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
-            <p>J'ai réalisé des jeux 2Ds en C avec une bibliothèque graphique fournie par l'IUT et en Java avec Swing. J'ai également créé plusieurs sites web, dont un site en PHP 
+            <p>J'ai réalisé des jeux 2D en C avec une bibliothèque graphique fournie par l'IUT et en Java avec Swing. J'ai également créé plusieurs sites web, dont un site en PHP 
               qui reproduit le site <a class="text-sky-600" href="https://doodle.com/fr/" target="_blank" rel="Noopener">doodle</a> avec un système d'authentification et des sondages
-              pour choisir le moment d'une réunion et qui utilise une base de données SQL. Le dernier projet que j'ai réalisé est un système de réservation de chambres d'hotel et de 
+              pour choisir le moment d'une réunion et qui utilise une base de données SQL. Un des derniers projets que j'ai réalisés est un système de réservation de chambres d'hotel et de 
               visualisation du taux de remplissage des chambres en java avec Swing et une base de données SQL.</p>
           </div>
         </div>
@@ -244,7 +244,7 @@
         <div class="relative bg-white sm:rounded-2xl px-4 py-10 sm:p-20 space-y-6">
           <div class="text-left text-2xl">
             <p>Une autre partie très importante du développement du jeu est la modélisation en 3D. La qualité de celle-ci change énormément le ressenti du jeu, 
-              j'ai donc choisi un style graphique simpliste afin de limiter le temps dédié à la modélisation qui est très chronophage tout en gardant un bon ressenti.</p>
+              j'ai donc choisi un style graphique simpliste afin de limiter le temps dédié à la modélisation qui est très chronophage, tout en gardant un bon ressenti.</p>
           </div>
         </div>
       </div>
