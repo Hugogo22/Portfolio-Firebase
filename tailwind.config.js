@@ -95,6 +95,7 @@ module.exports = {
       'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
       'topography': "url('topography.svg')",
       'blue-waves': "url('blue-waves.svg')",
+      'space': "url('space.jpg')",
     },
     backgroundOpacity: (theme) => theme('opacity'),
     backgroundPosition: {

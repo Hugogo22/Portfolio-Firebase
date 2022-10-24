@@ -1,5 +1,6 @@
-<template>
-  <div class="hidden xl:flex fixed right-4 top-4 flex-col z-50 align-baseline font-mono text-lg tracking-tight uppercase font-bold text-gray-800 transition-transform duration-300 translate-x-56" :class="{ transform: isScrolled}">
+<template class="overflow-hidden">
+  <div class="hidden xl:flex fixed right-4 top-4 flex-col z-50 align-baseline font-mono text-lg tracking-tight uppercase font-bold  transition-all  duration-300 translate-x-56" 
+  :class="[{'transform': isScrolled}, isCareerDevelopment ? 'text-white' : 'text-gray-800']">
     <router-link class="routerlink" to="/">
       <div class="p-3">
         Home
@@ -13,6 +14,11 @@
     <router-link class="routerlink" to="/Realisations">
       <div class="p-3">
         Mes réalisations
+      </div>
+    </router-link>
+    <router-link class="routerlink" to="/CareerDevelopment">
+      <div class="p-3">
+        Career Development
       </div>
     </router-link>
     <router-link class="routerlink" to="/Contact">
@@ -49,6 +55,12 @@
         </div>
       </router-link>
       <hr/>
+      <router-link to="/CareerDevelopment">
+        <div class="p-3 hover:text-white transition-colors duration-150">
+          Career Development
+        </div>
+      </router-link>
+      <hr/>
       <router-link to="/Contact">
         <div class="p-3 hover:text-white transition-colors duration-150">
           Me contacter
@@ -70,7 +82,7 @@
   .routerlink::after {
     content: "";
     z-index: -1;
-    @apply bg-sky-500 w-1 h-1/4 absolute transform -translate-y-full duration-500 transition-transform scale-0;
+    @apply bg-sky-500 w-1 h-1/5 absolute transform -translate-y-full duration-500 transition-transform scale-0;
   }
 
   .router-link-active::after {
@@ -96,7 +108,7 @@ export default {
       return {
         sideNav: false,
         isScrolled: false,
-        test: 50
+        isCareerDevelopment: this.$route.name == 'CareerDevelopment'
       }
     },
     methods: {
@@ -106,6 +118,9 @@ export default {
     },
     created() {
       window.addEventListener('scroll', this.handleScroll);
+      this.$router.afterEach(() => {
+        this.isCareerDevelopment = (this.$route.name == 'CareerDevelopment');
+      });
     },
     unmounted() {
       window.removeEventListener('scroll', this.handleScroll);

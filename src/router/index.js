@@ -24,10 +24,16 @@ const routes = [
     meta: { num: 3 }
   },
   {
+    path: '/CareerDevelopment',
+    name: 'CareerDevelopment',
+    component: () => import('../components/CareerDevelopment.vue'),
+    meta: { num: 4 }
+  },
+  {
     path: '/Contact',
     name: 'Contact',
     component: () => import('../components/Contact.vue'),
-    meta: { num: 4 }
+    meta: { num: 5 }
   }
 ]
 

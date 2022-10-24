@@ -18,7 +18,7 @@
             <p>Etudiant en informatique</p>
           </div>
           <div class="text-left text-2xl">
-            <p>J'ai 19 ans et je suis actuellement en seconde année de DUT Informatique. Je recherche un stage d'au moins 10 semaines pour la fin d'année et je souhaite rejoindre une école d'ingénieurs après mon DUT.
+            <p>J'ai 20 ans et je suis actuellement en première année de cycle ingénieur en Sciences du Numérique à l'ENSEEIHT.
               Je suis ambitieux et motivé par l'innovation !
             </p>
           </div>

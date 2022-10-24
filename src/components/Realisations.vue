@@ -157,7 +157,7 @@
             <p>C - Java - Web - SQL</p>
           </div>
           <div class="text-left text-2xl">
-            <p>Pendant ma première année de DUT et la première partie de cette deuxième année j'ai eu l'occasion de réaliser plusieurs projets, tout seul ou en groupe.</p>
+            <p>Pendant mes deux années de DUT, j'ai eu l'occasion de réaliser plusieurs projets, tout seul ou en groupe.</p>
           </div>
         </div>
       </div>
