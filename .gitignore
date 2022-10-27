@@ -2,6 +2,7 @@
 node_modules
 /dist
 .firebase*
+public/*.mp4
 
 # local env files
 .env.local

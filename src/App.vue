@@ -1,6 +1,6 @@
 <template class="overflow-hidden">
   <div class="hidden xl:flex fixed right-4 top-4 flex-col z-50 align-baseline font-mono text-lg tracking-tight uppercase font-bold  transition-all  duration-300 translate-x-56" 
-  :class="[{'transform': isScrolled}, isCareerDevelopment ? 'text-white' : 'text-gray-800']">
+  :class="[{'transform': isScrolled}, isNavBarWhite ? 'text-white' : 'text-gray-800']">
     <router-link class="routerlink" to="/">
       <div class="p-3">
         Home
@@ -8,12 +8,12 @@
     </router-link>
     <router-link class="routerlink" to="/CV">
       <div class="p-3">
-        Mon CV
+        My CV
       </div>
     </router-link>
     <router-link class="routerlink" to="/Realisations">
       <div class="p-3">
-        Mes réalisations
+        Projects
       </div>
     </router-link>
     <router-link class="routerlink" to="/CareerDevelopment">
@@ -23,16 +23,16 @@
     </router-link>
     <router-link class="routerlink" to="/Contact">
       <div class="p-3">
-        Me contacter
+        Contact
       </div>
     </router-link>
   </div>
   <div class="xl:-translate-y-16 fixed right-4 top-4 z-50 cursor-pointer transition-transform duration-200" @click="sideNav = !sideNav" :class="{ transform: !isScrolled }">
     <div class="flex flex-col space-y-1">
-      <div class="bg-gray-800 w-12 h-2 rounded-xl scale-0 transition-transform duration-200 ease-in-out" :class="{ transform: sideNav }"></div>
-      <div class="bg-gray-800 w-12 h-2 rounded-xl -rotate-45  transition-transform duration-200 ease-in-out" :class="{ transform: sideNav }"></div>
-      <div class="bg-gray-800 w-12 h-2 rounded-xl scale-0 transition-transform duration-200 ease-in-out" :class="{ transform: sideNav }"></div>
-      <div class="bg-gray-800 w-12 h-2 rounded-xl absolute top-2 rotate-45  transition-transform duration-200 ease-in-out" :class="{ transform: sideNav }"></div>
+      <div class="w-12 h-2 rounded-xl scale-0 transition-transform duration-200 ease-in-out" :class="[{ transform: sideNav }, (isNavBarWhite && !sideNav) ? 'bg-white' : 'bg-gray-800']"></div>
+      <div class="w-12 h-2 rounded-xl -rotate-45  transition-transform duration-200 ease-in-out" :class="[{ transform: sideNav }, (isNavBarWhite && !sideNav) ? 'bg-white' : 'bg-gray-800']"></div>
+      <div class="w-12 h-2 rounded-xl scale-0 transition-transform duration-200 ease-in-out" :class="[{ transform: sideNav }, (isNavBarWhite && !sideNav) ? 'bg-white' : 'bg-gray-800']"></div>
+      <div class="w-12 h-2 rounded-xl absolute top-2 rotate-45  transition-transform duration-200 ease-in-out" :class="[{ transform: sideNav }, (isNavBarWhite && !sideNav) ? 'bg-white' : 'bg-gray-800']"></div>
     </div>
   </div>
   <div class="fixed top-0 bg-gradient-to-br from-sky-400 to-indigo-400 z-40 h-screen w-screen translate-x-full transition-transform duration-200 ease-in-out" :class="{ transform: !sideNav }">
@@ -45,13 +45,13 @@
       <hr/>
       <router-link to="/CV">
         <div class="p-3 hover:text-white transition-colors duration-150">
-          Mon CV
+          My CV
         </div>
       </router-link>
       <hr/>
       <router-link to="/Realisations">
         <div class="p-3 hover:text-white transition-colors duration-150">
-          Mes réalisations
+          Projects
         </div>
       </router-link>
       <hr/>
@@ -63,7 +63,7 @@
       <hr/>
       <router-link to="/Contact">
         <div class="p-3 hover:text-white transition-colors duration-150">
-          Me contacter
+          Contact
         </div>
       </router-link>
     </div>
@@ -108,7 +108,7 @@ export default {
       return {
         sideNav: false,
         isScrolled: false,
-        isCareerDevelopment: this.$route.name == 'CareerDevelopment'
+        isNavBarWhite:  ['CV', 'CareerDevelopment', 'Contact'].includes(this.$route.name)
       }
     },
     methods: {
@@ -119,7 +119,7 @@ export default {
     created() {
       window.addEventListener('scroll', this.handleScroll);
       this.$router.afterEach(() => {
-        this.isCareerDevelopment = (this.$route.name == 'CareerDevelopment');
+        this.isNavBarWhite = ['CV', 'CareerDevelopment', 'Contact'].includes(this.$route.name);
       });
     },
     unmounted() {
