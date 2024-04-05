@@ -18,12 +18,12 @@
             <p>Computer Science student</p>
           </div>
           <div class="text-justify text-2xl">
-            <p>Hi, I'm 20 years old and I'm currently studying Computer Science at ENSEEIHT in Toulouse. My goal is to work in the space industry as an embedded software engineer.
+            <p>Hi, I'm 22 years old and I'm currently studying Computer Science at ENSEEIHT in Toulouse. My goal is to work in the space industry as an embedded software engineer.
             </p>
             <br/>
             <hr class="border-sky-600 border-t-2 -rotate-3 transform"/>
             <br/>
-            <p>Bonjour, j'ai 20 ans et je suis actuellement en première année de cycle ingénieur en Sciences du Numérique à l'ENSEEIHT.
+            <p>Bonjour, j'ai 22 ans et je suis actuellement en première année de cycle ingénieur en Sciences du Numérique à l'ENSEEIHT.
               J'ai pour projet de travailler dans le spatial en tant qu'ingéneur en informatique embarquée.
             </p>
           </div>
@@ -54,7 +54,7 @@
         </div>
       </router-link>
     </div>
-    <div class="relative flex flex-col my-20">
+    <!--<div class="relative flex flex-col my-20">
       <div class="absolute inset-0 inset-x-0 xl:inset-x-64 bg-gradient-to-br from-cyan-200 to-sky-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-3 sm:rounded-2xl"></div>
       <div class="relative py-4 sm:max-w-2xl sm:mx-auto z-20">
         <div class="absolute inset-0 bg-gradient-to-br from-cyan-400 to-sky-500 sm:rounded-2xl shadow-lg transform skew-y-6 sm:skew-y-0 sm:rotate-3"></div>
@@ -67,7 +67,7 @@
           </video>
         </div>
       </div>
-    </div>
+    </div>-->
   </div> 
 </template>
 

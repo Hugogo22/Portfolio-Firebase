@@ -34,6 +34,18 @@ const routes = [
     name: 'Contact',
     component: () => import('../components/Contact.vue'),
     meta: { num: 5 }
+  },
+  {
+    path: '/PCERetakeJune2023',
+    name: 'PCERetakeJune2023',
+    component: () => import('../components/PCERetakeJune2023.vue'),
+    meta: { num: 5 }
+  },
+  {
+    path: '/RETAKESL3CAMepreuve2',
+    name: 'RETAKESL3CAMepreuve2',
+    component: () => import('../components/RETAKESL3CAMepreuve2.vue'),
+    meta: { num: 5 }
   }
 ]
 

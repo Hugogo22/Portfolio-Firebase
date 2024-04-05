@@ -16,16 +16,26 @@
         Projects
       </div>
     </router-link>
-    <router-link class="routerlink" to="/CareerDevelopment">
+    <!--<router-link class="routerlink" to="/CareerDevelopment">
       <div class="p-3">
         Career Development
       </div>
-    </router-link>
+    </router-link>-->
     <router-link class="routerlink" to="/Contact">
       <div class="p-3">
         Contact
       </div>
     </router-link>
+    <!--<router-link class="routerlink" to="/PCERetakeJune2023">
+      <div class="p-3">
+        PCE Retake June 2023
+      </div>
+    </router-link>
+    <router-link class="routerlink" to="/RETAKESL3CAMepreuve2">
+      <div class="p-3">
+        RETAKES L3 CAM épreuve 2
+      </div>
+    </router-link>-->
   </div>
   <div class="xl:-translate-y-16 fixed right-4 top-4 z-50 cursor-pointer transition-transform duration-200" @click="sideNav = !sideNav" :class="{ transform: !isScrolled }">
     <div class="flex flex-col space-y-1">
@@ -55,17 +65,29 @@
         </div>
       </router-link>
       <hr/>
-      <router-link to="/CareerDevelopment">
+      <!--<router-link to="/CareerDevelopment">
         <div class="p-3 hover:text-white transition-colors duration-150">
           Career Development
         </div>
       </router-link>
-      <hr/>
+      <hr/>-->
       <router-link to="/Contact">
         <div class="p-3 hover:text-white transition-colors duration-150">
           Contact
         </div>
       </router-link>
+      <!--<hr/>
+      <router-link to="/PCERetakeJune2023">
+        <div class="p-3 hover:text-white transition-colors duration-150">
+          PCE Retake June 2023
+        </div>
+      </router-link>
+      <hr/>
+      <router-link to="/RETAKESL3CAMepreuve2">
+        <div class="p-3 hover:text-white transition-colors duration-150">
+          RETAKES L3 CAM épreuve 2
+        </div>
+      </router-link>-->
     </div>
   </div>
   <router-view v-slot="{ Component, route }">
